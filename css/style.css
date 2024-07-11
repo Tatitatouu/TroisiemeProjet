@@ -68,7 +68,7 @@ nav {
     color: #0065FC;
 }
 
-img {
+.logo {
     padding: 30px 50 30 50;
     margin-top: 20px;
     width: 61.09px;
@@ -156,37 +156,8 @@ img {
     display: none;
 }
 
-@media (max-width: 767.98px) {
-    .search-text {
-        display: none;
-    }
-    
-    .search-icon {
-        display: inline;
-    }
-    
-    .search-button {
-        padding: 15px;
-    }
-}
-
-
-@media (max-width: 767.98px) {
-    .search-text {
-        display: none;
-    }
-    
-    .search-icon {
-        display: inline;
-    }
-    
-    .search-button {
-        border-radius: 15px;
-        padding: 15px;
-    }
-}
-
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -291,9 +262,75 @@ img {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    padding: 30px;
 }
 
+.hebergements-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.hebergements-cards .card {
+    width: 250px;
+    margin-top: 33px;
+}
+
+.hebergements-cards {
+    width: 30%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards img {
+    width: -webkit-fill-available;
+    height: 142px;
+    object-fit: cover;
+}
+
+.hebergements-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements .card-title {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    gap: 8px;
+}
+
+.hebergements .card-subtitle {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.hebergements .card-rating {
+    font-size: 12px;
+    margin-top: auto;
+}
+
+.directionRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.afficher-plus {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -339,7 +376,35 @@ img {
 }
 
 
+@media (max-width: 767.98px) {
+    .search-text {
+        display: none;
+    }
+    
+    .search-icon {
+        display: inline;
+    }
+    
+    .search-button {
+        padding: 15px;
+    }
+}
 
+
+@media (max-width: 767.98px) {
+    .search-text {
+        display: none;
+    }
+    
+    .search-icon {
+        display: inline;
+    }
+    
+    .search-button {
+        border-radius: 15px;
+        padding: 15px;
+    }
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
