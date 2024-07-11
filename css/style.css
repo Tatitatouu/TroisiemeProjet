@@ -272,7 +272,8 @@ nav {
 }
 
 .hebergements-cards .card {
-    width: 250px;
+    width: 250.33px;
+    height: 207px;
     margin-top: 33px;
 }
 
@@ -284,18 +285,15 @@ nav {
 }
 
 .hebergements-cards img {
-    width: -webkit-fill-available;
-    height: 142px;
+    width: 250px;
+    height: 124px;
     object-fit: cover;
+    padding-bottom: inherit;
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+    font-size: 16px;
+    text-align: start;
 }
 
 .hebergements .card-title {
