@@ -1,4 +1,4 @@
-/****** General ***********/
+/* General */
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -13,8 +13,13 @@
 .fa-solid {
     border: none;
     color: #F2F2F2;
+    font-size: 14px;
 }
 
+.fa-star.blue {
+    color: #0065FC;
+
+}
 body {
     display: flex;
     justify-content: center;
@@ -69,7 +74,7 @@ nav {
 }
 
 .logo {
-    padding: 30px 50 30 50;
+    padding: 30px 50px 30px 50px;
     margin-top: 20px;
     width: 61.09px;
     height: 19px;
@@ -182,7 +187,7 @@ nav {
 .search-bar {
     display: flex;
     justify-content: left;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .search-bar input {
@@ -263,12 +268,12 @@ nav {
 .hebergements {
     width: 65%;
     padding: 30px;
+    gap: 30px;
 }
 
 .hebergements-title {
     display: flex;
     justify-content: space-around;
-    align-items: left;
 }
 
 .hebergements-cards .card {
@@ -288,28 +293,28 @@ nav {
     width: 250px;
     height: 124px;
     object-fit: cover;
-    padding-bottom: inherit;
 }
 
 .hebergements-cards .card-content {
     font-size: 16px;
     text-align: start;
+    padding: 0px 15px 0px 15px;
 }
 
 .hebergements .card-title {
-    margin: 0 0 5px 0;
+    margin: 10px 0 5px 0;
     font-size: 16px;
     gap: 8px;
 }
 
 .hebergements .card-subtitle {
-    margin: 0 0 10px 0;
+    margin: 5px 0 10px 0;
     font-size: 14px;
 }
 
 .hebergements .card-rating {
     font-size: 12px;
-    margin-top: auto;
+    margin: 5px 0px 5px 0px;
 }
 
 .directionRow {
@@ -403,6 +408,85 @@ nav {
         padding: 15px;
     }
 }
+
+/* Activités section */
+
+.activites-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.activites {
+    width: 250px;
+}
+
+.card-activites {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites-title {
+    font-size: 22px;
+    display: flex;
+    padding: 15px;
+}
+
+.activites-cards img {
+    width: 297px;
+    height: 380px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.activites-card-content {
+    display: flex;
+    font-size: 16px;
+}
+
+.activites-card-title {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.activites-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+.directionRow-activites {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+/* Footer section */
+
+.footer-container {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    margin-top: 30px;
+    gap: 35px;
+}
+
+p {
+    margin: 6px;
+}
+
+.a-propos, .nos-hebergements, .assistance {
+    width: 446px;
+    height: 163px;
+    padding: 15px 15px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
