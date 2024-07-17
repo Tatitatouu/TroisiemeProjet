@@ -410,11 +410,12 @@ nav {
 .activites-section {
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
 }
 
 .activites {
-    width: 250px;
+    width: 100%;
+    padding: 1.88em;
+    gap: 1.88em;
 }
 
 .card-activites {
@@ -430,8 +431,8 @@ nav {
 }
 
 .activites-cards img {
-    width: 297px;
-    height: 380px;
+    width: 17.5em;
+    height: 22.5em;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
@@ -455,8 +456,8 @@ nav {
 .directionRow-activites {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-
+    gap: 1.5em;
+    width: 100%;
 }
 
 /* Footer section */
@@ -471,19 +472,22 @@ nav {
 }
 
 p {
+    font-size: 1em;
     margin: 6px;
 }
 
 .a-propos, .nos-hebergements, .assistance {
     width: 446px;
     height: 163px;
-    padding: 15px 15px 15px 0px;
     display: flex;
     flex-direction: column;
     font-size: 15px;
 }
 
-
+h2 {
+    font-size: 1.125em;
+    margin-left: 0.30em;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
