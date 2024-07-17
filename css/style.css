@@ -50,7 +50,6 @@ header {
 }
 
 nav {
-    
     display: flex;
     gap: 68px;
 }
@@ -74,13 +73,8 @@ nav {
 }
 
 .logo {
-    padding: 30px 50px 30px 50px;
-    margin-top: 20px;
-    width: 61.09px;
+    padding-top: 1em;
     height: 19px;
-    top: 30px;
-    left: 50px;
-    gap: 10px;
     cursor: pointer;
 }
 
@@ -120,7 +114,7 @@ nav {
 
 .search-container {
     display: flex;
-    max-width: 400px;
+    max-width: 1440px;
     border-radius: 15px;
     overflow: hidden;
     border: 1px solid var(--main-bg-color);
@@ -166,6 +160,7 @@ nav {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 2.5em;
 }
 
 .hebergements-and-populaires section {
@@ -266,9 +261,8 @@ nav {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
-    padding: 30px;
-    gap: 30px;
+    max-width: 1440px;
+    gap: 10px;
 }
 
 .hebergements-title {
@@ -277,9 +271,10 @@ nav {
 }
 
 .hebergements-cards .card {
-    width: 250.33px;
-    height: 207px;
-    margin-top: 33px;
+    width: 15.65em;
+    height: 13em;
+    margin-top: 2em;
+    
 }
 
 .hebergements-cards {
@@ -296,9 +291,11 @@ nav {
 }
 
 .hebergements-cards .card-content {
-    font-size: 16px;
-    text-align: start;
-    padding: 0px 15px 0px 15px;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .hebergements .card-title {
@@ -309,19 +306,18 @@ nav {
 
 .hebergements .card-subtitle {
     margin: 5px 0 10px 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .hebergements .card-rating {
     font-size: 12px;
-    margin: 5px 0px 5px 0px;
 }
 
 .directionRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 2em;
 
 }
 .afficher-plus {
