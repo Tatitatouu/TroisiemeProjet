@@ -170,6 +170,12 @@ nav {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+}
+
 /* Search section */
 
 .search-section {
@@ -326,7 +332,6 @@ nav {
     margin-top: 30px;
     cursor: pointer;
 }
-
 
 /****** Populaires ***********/
 
@@ -488,6 +493,7 @@ h2 {
     font-size: 1.125em;
     margin-left: 0.30em;
 }
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -522,6 +528,20 @@ h2 {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites {
+        width: 100%;
+    }
+
+    .activites-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card-activites {
+        
     }
 }
 
