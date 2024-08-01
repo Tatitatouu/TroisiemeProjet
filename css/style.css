@@ -724,12 +724,16 @@ h2 {
 
     .filters {
         flex-wrap: wrap;
-        margin: 0;
+        margin: 0.9em;
         gap: 0;
     }
 
     .filter-button {
         width: 45%;
+    }
+
+    .filter-buttons {
+        justify-content: center;
     }
 
 
