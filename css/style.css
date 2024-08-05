@@ -477,7 +477,7 @@ nav {
     font-size: 0.9375em;
 }
 
-p {
+.footer-container section p {
     font-size: 1em;
     margin: 0.375em;
 }
