@@ -209,7 +209,6 @@ nav {
     display: flex;
     align-items: flex-start;
     gap: 1em;
-    margin: 2em 0;
 }
 
 .filter-buttons {
@@ -335,9 +334,10 @@ nav {
 .afficher-plus {
     font-weight: 700;
     font-size: 1.125em;
-    margin-top: 0.9em;
+    margin: 1em 0 0.35em 0;
     cursor: pointer;
 }
+
 
 /****** Populaires ***********/
 
@@ -520,7 +520,6 @@ h2 {
     .hebergements .card-subtitle {
         font-size: 0.9em;
     }
-
 
     .populaires {
         width: 35%;
